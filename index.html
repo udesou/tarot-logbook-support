@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Support for Tarot Logbook, a private record for tarot readings, cards, and recurring patterns.">
+  <title>Tarot Logbook Support</title>
+  <style>
+    :root { color-scheme: light; --ink: #3a2a28; --paper: #f7ecdc; --wine: #812b4a; --wine-deep: #571b32; --rose: #ead4d1; --line: #dfcfc3; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: radial-gradient(circle at 84% 8%, #efdcd0 0, transparent 22rem), var(--paper); color: var(--ink); font: 18px/1.65 Georgia, "Times New Roman", serif; }
+    main { width: min(760px, calc(100% - 40px)); margin: 0 auto; padding: 82px 0 64px; }
+    .mark { width: 68px; height: 68px; display: grid; place-items: center; margin-bottom: 24px; border: 1px solid rgba(129, 43, 74, .35); border-radius: 50%; color: var(--wine); background: rgba(255,255,255,.5); font: 39px/1 Georgia, serif; box-shadow: 0 10px 30px rgba(89, 38, 42, .09); }
+    h1, h2 { color: var(--wine-deep); line-height: 1.08; }
+    h1 { margin: 0; font-size: clamp(2.5rem, 8vw, 4.5rem); letter-spacing: -.045em; }
+    h2 { margin: 0 0 12px; font-size: 1.55rem; }
+    .tagline { max-width: 580px; margin: 18px 0 42px; color: #745e5a; font-size: clamp(1.18rem, 3vw, 1.45rem); }
+    .card { margin: 20px 0; padding: 30px; background: rgba(255,255,255,.74); border: 1px solid var(--line); border-radius: 25px; box-shadow: 0 14px 38px rgba(89, 38, 42, .07); }
+    .card p:last-child { margin-bottom: 0; }
+    .button { display: inline-block; margin: 4px 8px 0 0; padding: 10px 16px; border: 1px solid rgba(129,43,74,.22); border-radius: 999px; color: var(--wine-deep); background: var(--rose); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: .92rem; font-weight: 700; text-decoration: none; }
+    a { color: var(--wine); font-weight: 700; }
+    .small { color: #745e5a; font-size: .96rem; }
+    footer { margin-top: 56px; color: #745e5a; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: .88rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="mark" aria-hidden="true">✦</div>
+    <h1>Tarot Logbook</h1>
+    <p class="tagline">A private place to return to your readings, cards, and patterns over time.</p>
+    <section class="card"><h2>Support</h2><p>Need help, found a bug, or have an idea for a future update? Email <a href="mailto:udesou@gmail.com?subject=Tarot%20Logbook%20feedback">udesou@gmail.com</a>. Feedback is genuinely welcome.</p><a class="button" href="mailto:udesou@gmail.com?subject=Tarot%20Logbook%20feedback">Send feedback</a></section>
+    <section class="card"><h2>About the app</h2><p>Tarot Logbook helps you record readings in a form you can revisit: spreads, decks, card pulls, reflections, mood, theme, and who a reading was for. Readings can sync privately through your iCloud account, and you can keep a manual backup whenever you want.</p><p class="small">Tarot Logbook Premium is a one-time App Store purchase that unlocks saved custom spreads, personal decks and card photos, Search, Insights, and Markdown export.</p></section>
+    <section class="card"><h2>Support future updates</h2><p>Tarot Logbook is made independently. If it has been useful to you, you can support its future through Ko-fi. Tips are optional and appreciated.</p><a class="button" href="https://ko-fi.com/tarot_logbook">Support on Ko-fi</a></section>
+    <section class="card"><h2>Privacy</h2><p>Your readings are yours. Tarot Logbook has no advertising or analytics SDKs, and does not sell your data.</p><p><a href="privacy.html">Read the Tarot Logbook Privacy Policy</a></p></section>
+    <footer>© 2026 Tarot Logbook</footer>
+  </main>
+</body>
+</html>
